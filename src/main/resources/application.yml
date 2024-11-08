@@ -11,3 +11,7 @@ spring:
   mongodb:
    uri: mongodb://localhost:27017/ollama-chatbot
 
+server:
+ port: 8900
+ servlet:
+  context-path: /api/v1
